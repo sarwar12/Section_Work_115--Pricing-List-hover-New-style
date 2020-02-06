@@ -1,0 +1,106 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* === Pricing List Section CSS Start === */
+.single-pricing-item {
+  box-shadow: 0 0 9px #ddd;
+  padding: 30px;
+  border-top: 3px solid #38c695;
+  text-align: center;
+  transition: .3s;
+}
+.princing-price {
+  background-color: #38c695;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 30px auto;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+}
+.pricing-price-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-top: 25px;
+}
+.princing-price:after {
+  content: "";
+  position: absolute;
+  left: -6%;
+  top: -6%;
+  height: 112%;
+  width: 112%;
+  border: 3px solid #38c695;
+  border-radius: 50%;
+}
+.pricing-content {
+  font-size: 17px;
+  color: #646464;
+}
+.bordered-btn, .boxed-btn {
+  display: inline-block;
+  border: 2px solid #36c695;
+  font-size: 16px;
+  color: #38c695;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.boxed-btn {
+  background-color: #38c695;
+  color: #fff;
+}
+.single-pricing-item:hover {
+  transform: scale(1.08);
+}
+.single-pricing-item.theme-2 {
+  border-color: #fc5f45;
+}
+.theme-2 .princing-price {
+  background-color: #fc5f45;
+}
+.theme-2 .princing-price:after {
+  border-color: #fc5f45;
+}
+.theme-2 .boxed-btn {
+  background-color: #fc5f45;
+  border-color: #fc5f45;
+}
+.single-pricing-item.theme-3 {
+  border-color: #6e2ab3;
+}
+.theme-3 .princing-price {
+  background-color: #6e2ab3;
+}
+.theme-3 .princing-price:after {
+  border-color: #6e2ab3;
+}
+.theme-3 .bordered-btn {
+  background-color: #6e2ab3;
+  border-color: #6e2ab3;
+  color: #fff;
+}
+/* === Pricing List Section CSS Stop === */
